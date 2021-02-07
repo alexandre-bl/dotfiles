@@ -59,6 +59,7 @@ alias myip='curl ipv4.icanhazip.com'
 alias grep='grep --color=auto'
 alias vim='nvim'
 alias cp='cp -r'
+alias rm='rm -r'
 alias mv='mv -r'
 
 export EDITOR="nvim"
