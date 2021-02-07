@@ -43,6 +43,7 @@ NC='\[\e[m\]'			# Color Reset
 ALERT="${BWhite}${On_Red}" # Bold White on red background
 
 # Useful aliases
+alias surf="tabbed surf -pe"
 alias clear='clear && pfetch'
 alias c='clear'
 alias ..='cd ..'
@@ -57,10 +58,13 @@ alias histg='history | grep'
 alias myip='curl ipv4.icanhazip.com'
 alias grep='grep --color=auto'
 alias vim='nvim'
+alias cp='cp -r'
+alias mv='mv -r'
 
 export EDITOR="nvim"
 export PAGER="less"
-export BROWSER="librewolf"
+export BROWSER="surf"
+export TERM="st"
 
 # Set PATH so it includes user's private bin directories
 PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"

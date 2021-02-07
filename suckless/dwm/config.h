@@ -43,7 +43,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0";
 static const char *dmenucmd[]   = { "dmenu_run", NULL };
 static const char *termcmd[]    = { "st", NULL };
-static const char *browsercmd[] = { "librewolf", NULL };
+static const char *browsercmd[] = { "tabbed", "surf", "-pe" };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
